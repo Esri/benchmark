@@ -20,6 +20,7 @@ project "benchmark"
   }
 
   files {
+    "**.h",
     "src/benchmark.cc",
     "src/benchmark_api_internal.cc",
     "src/benchmark_name.cc",
